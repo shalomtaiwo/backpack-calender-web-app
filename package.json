@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@skyscanner/backpack-react-scripts": "10.4.0"
+    "@babel/core": "^7.22.5",
+    "@skyscanner/backpack-react-scripts": "10.4.0",
+    "babel-jest": "^29.5.0",
+    "date-fns": "^2.30.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,10 +29,14 @@
     ]
   },
   "devDependencies": {
-    "@skyscanner/backpack-web": "^15.1.0",
-    "bpk-mixins": "^36.2.0",
-    "bpk-stylesheets": "^7.2.16",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "@skyscanner/backpack-web": "^25.2.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "bpk-component-calendar": "^13.1.2",
+    "bpk-mixins": "^41.1.0",
+    "bpk-stylesheets": "^9.0.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
